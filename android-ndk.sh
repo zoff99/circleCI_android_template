@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function install_ndk() {
-    NDK_VERSION=r10d
+    # NDK_VERSION=r10d
     TMP_NDK=/tmp/ndk
     DIR=android-ndk-$NDK_VERSION
     FILE=$DIR-linux-x86_64.bin
